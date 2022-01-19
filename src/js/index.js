@@ -1,7 +1,7 @@
-import myFunction, { multiply } from "./myModule";
 
-myFunction();
+function toggleMobileMenu(menu) {
+    menu.classList.toggle('open');
+}
 
-const result = multiply(2, 5);
 
-console.log(result);
+
