@@ -111,13 +111,18 @@
   color: white;
 
   @media (min-width: 768px) {
-    margin-left: 17rem;
+    font-size: 78px;
+    margin-left: 16rem;
   }
 
   @media (min-width: 992px) { 
     font-size: 94px;
     margin-left: 33%;
+  }
 
+  @media (min-width: 1220px) { 
+    font-size: 94px;
+    margin-left: 40%;
   }
 
 
@@ -134,13 +139,21 @@ color: white;
 
 @media (min-width: 768px) {
   margin-left: 18rem;
+}
 
 @media (min-width: 992px) { 
     
   margin-left: 40%;
 
   }
-}
+
+@media (min-width: 1220px) { 
+  
+  margin-left: 44%;
+  }
+
+
+
 }
 
 
