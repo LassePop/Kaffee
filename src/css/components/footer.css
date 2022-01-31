@@ -1,0 +1,89 @@
+
+.footer   { 
+    background-color: black;
+    color: white;
+  }
+
+    
+.imagefooter { 
+    padding-top: 20px;
+    margin-left: 24px;
+    
+  }
+
+  .footerimage { 
+    width: 35px;
+    height: 35px;
+  }
+  
+
+
+  .footername { 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 26px;
+    margin-top: 15px;
+    margin-bottom: 34px ;
+  }
+  
+  .footername2 { 
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+   }
+
+   .rechtliches-div { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 24px ;
+    margin-right: 60px;
+    padding-bottom: 51px;
+  }
+
+    
+.footer name { 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 26px;
+    margin-top: 15px;
+    margin-bottom: 34px ;
+  }
+  
+.footername2 { 
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+   }
+  
+.adress-opening { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 24px ;
+    margin-right: 24px;
+    padding-bottom:34px;
+  }
+  
+
+.rechtliches-div { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 24px ;
+    margin-right: 60px;
+    padding-bottom: 51px;
+  }
+ 

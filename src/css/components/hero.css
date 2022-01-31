@@ -11,10 +11,34 @@
 }
 
 
-@media only screen and (max-width: 600px) {
-  h1 {
+
+h1 {
     
-    font-size: 64px;
-    display: flex;
-    justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 110px;
+  color: white;
+
+  @media (min-width: 992px) { 
+    font-size: 94px;
+
+    @media (min-width: 1200px) { 
+      margin-left: 32.8rem;
+      
+
+     }
+
   }
+
+}
+
+hero-title-sub {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: white;
+}

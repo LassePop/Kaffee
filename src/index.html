@@ -3,25 +3,98 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index Page</title>
+    <title>Home</title>
     <link rel="stylesheet" href="/css/main.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Oregano"
-      rel="stylesheet"
-    />
+    <script src="../js/index.js"></script>
+    
   </head>
   <body>
-    
+
     <!--Header -->
      <!--Navigation-->
-     
-    <div id="Header">
-    <img src=“../src/images/coffee.jpg“>
     
-    <h1>Rustica</h1>
+  
+     {{> header }} 
+ 
+
+    <main>
+
+   <!--Section 1 Rösterei und Cafe  -->
+
+      <div class="section1">
+        <h2 class="texttitle">Rösterei & Café</h2>
+        <p  class="normal-caption"> Kaffee aus Kiel, direkt gehandelt und geröstet in der eigenen Rösterei, serviert im gemütlichen Café in der Innenstadt.</p>
+        <p  class="time1"> Komm uns besuchen! <br> Frauenhoferstr. 13, Kiel.</p>
+        <p  class="time2"> Mo – Fr 8–18 Uhr <br> Sa 11–18 Uhr</p>
+     </div>
+     
+     <div class="cafe-foto">
+     <img class="cafe" src="../images/FEND-Coffee-shop.png" alt="shopfoto">
+    </div>
+   
+  <!--Section 2 Bio & Fair  -->
+
+  <div>
+    <h2 class="text-title2">Bio und Fair</h2>
+    <p  class="normal-caption2"> Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Und das alles in bester Bio Qualität</p>
+ </div>
+ 
+ <div class="cafe-foto2">
+ <img class="cafe2" src="../images/FEND-coffee-plant.png" alt="plant">
+</div>
+  
+    <!--Section 3 Kaffee Sorten  -->
+
+    {{> sorts }}  
+    
+  <!--Section 4 Herkunft -->
+    
+    {{> origin }}  
+
+    <!--Section 5 Inhalt -->
+
+    <div class="section5">
+    <p class="inhalt">Das steckt drin</p>
+    <img class="inhalt-img" src="../images/FEND_Coffee_Costa-Rica 2.png" alt="Costaricasorte">
+    </div>
+    
+    <!--Section 6 Icon Liste  -->
+  <div class="section6">
+
+    <img class="geschmack"  src="../images/Icon Kaffee Tasse (1).png" alt="Costaricasorte">
+    <img class="handel"  src="../images/Icon Kaffee Schaufel2.png" alt="Costaricasorte">
+    <img class="bio" src="../images/Icon-Kaffee Pflanze.png">
+    
+  </div>
+
+    <!--Section 7 Caption Liste  -->
+
+    <div class="section7">
+
+      <p>Bester Geschmack</p>
+      <p>Fair gehandelt</p>
+      <p>Bio Qualität</p>
+      
     </div>
 
-  
-    <script src="/js/index.js" type="module"></script>
+    <!--Section 8 button Shop   -->
+
+    <div class="buttonshop">
+    
+      <button class="shopbutton" type="button">zum Shop</button>
+    
+    </div>
+    
+    <!--Section 9 button Map    -->
+ 
+    {{> maps }}
+
+    <!--Section 9 button Footer   -->
+
+      {{> footer }}
+     
+    </main>
+    <script src="../js/index.js"> </script>
   </body>
 </html>
+

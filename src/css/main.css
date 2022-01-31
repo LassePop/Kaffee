@@ -1,7 +1,13 @@
-@import "variables.css";
-@import "base.css";
-@import "components/hero.css";
-@import "hero.css";
-@import "header.css";
-@import "mediaqueries.css"
+@import "/css/base.css";
+@import "/css/components/footer.css";
+@import "/css/components/buttons.css";
+@import "/css/components/header.css";
+@import "/css/components/hero.css";
+@import "/css/components/map.css";
 
+
+
+
+
+
+ 

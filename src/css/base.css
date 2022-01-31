@@ -1,369 +1,54 @@
-* { 
-  margin: 0px;
-  padding: 0px;
-  box-sizing: borderbox;
-}
-
-
-
-body {
-  background:#E5E5E5;
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-
-
-
-  
-
-
-}
-
-
-.header { 
-    height: 70vh;
-    background-image: url(../images/coffee.jpg);
-    background-size: cover;
-    background-position: top;
-    position: relative;
-    
-
-}
-
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-
-
-  @media only screen and (max-width: 600px) {
-    header nav {
-      width: 376px;
-    }
-
-
-  
-}
-
-header a {
-  text-decoration: none;
-}
-
-
-ul {
-  list-style: none;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin-right: 150px;
-}
-
-ul a {
-  color: white;
-}
-
-ul li {
-  padding: 5px;
-  margin-top: 18px;
-  margin-right: 69px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
-}
-
-ul li:hover {
-  text-decoration: underline;
-  transition: 0.3s;
-}
-
-
-#hamburger-icon {
-  margin: auto 0;
-  display: none;
-  cursor: pointer;
-}
-
-#hamburger-icon div {
-  width: 35px;
-  height: 3px;
-  background-color: white;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
-
-.open .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
-  transform: rotate(-45deg) translate(-6px, 6px);
-  
-}
-
-.open .bar2 {
-  opacity: 0;
-  
-}
-
-.open .bar3 {
-  -webkit-transform: rotate(45deg) translate(-6px, -8px);
-  transform: rotate(45deg) translate(-6px, -8px);
-  
-}
-
-.open .mobile-menu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  
-}
-
-.mobile-menu {
-  display: none;
-  position: absolute;
-  top: 50px;
-  left: 0;
-  height: calc(100vh - 50px);
-  width: 100%;
-  
- 
-}
-
-.mobile-menu li {
-  margin-bottom: 10px;
-  float: right;
-  
-}
-
-@media only screen and (max-width: 600px) {
-  header nav {
-    display: none;
-  }
-
-  #hamburger-icon {
-    display: block;
-    float: right;
-    margin-top: 20px;
-    margin-right: 20px;
-  
-    
-  }
-
-
-
-.logobox { 
-
-  position: absolute;
-  
-}
-
-
-
-/* Kaffee Logo Desktop Version */
-
-
-.logo { 
- height: 27px;
- position: absolute;
- left: 113px;
- top: 17px;
- 
-}
-
-
-/* Kaffee Logo Mobil Version */
-
-@media only screen and (max-width: 600px) {
-  .logo {
- height: 35px;
- position: absolute;
- left: 24px;
- top: 10px;
-
-}
-
-
-.textbox { 
-  position: relative;
-  top: 40%;
-  left: 40%;
-  max-width: 218px;
-  
-  
-}
-
-@media only screen and (max-width: 600px) {
-  .textbox {
-    position: relative;
-    justify-content: center;
-    top: 40%;
-    left: 20%;
-    max-width: 218px;
-  }
-
-}
-
-
-.title { 
- color: white;
- flex-wrap: wrap;
- 
-}
-
-/* H1 Startseite Desktop Version */
-.hero-title { 
-  display: block;
-  font-size: 96px;
-  font-weight: 900;
-  font-family: 'Roboto';
-  max-width: 218px;
-  
-}
-
-/* H1 Startseite Logo Mobile Version */
-
-@media only screen and (max-width: 600px) {
-.hero-title { 
-  display: block;
-  font-size: 64px;
-  font-weight: 900;
-  font-family: 'Roboto';
-  max-width: 218px;
-  
-}
-}
-
-.hero-title-sub { 
-display: block;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 21px;
-flex-wrap: wrap;
-  
-
-  
-  
-}
-
-.twocolumns {
-  display: flex;
-}
-
-
-
-main {
-  margin: 0 auto;
-  
-
-  & div {
-    color: yellow;
-
-    @media (min-width: 768px) {
-      color: var(--div-color);
-    }
-  }
-}
-
-h1{ 
-  color: white;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.mainbutton { 
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 15px 50px;
-  
- 
-  position: absolute;
-  width: 163px;
-  height: 48px;
-  left: 106px;
-  top: 392px;
-  
-  
-  background: #1A1A1A;
-  color: white;
-  border: 2px solid #1A1A1A;
+body {
+  background:#E5E5E5;
   box-sizing: border-box;
-  border-radius: 5px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 18px;
-  white-space: nowrap;
-}
-
-@media only screen and (max-width: 600px) {
-  .mainbutton { 
-position: absolute;
-width: 163px;
-height: 48px;
-left: 106px;
-top: 392px;
-
+  margin: 0px;
+  padding: 0px;
 }
 
 
-/* Section 1 Startseite mobil Version */
-
-.section1 {
-  display: flex;
-  flex-direction: row ;
-  flex-wrap: wrap;
 
 
-}
+  .section1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .texttitle {
+    margin-top: 60px;
+    margin-left: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 34px;
+  }
+   
+  .normal-caption { 
+     
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
+  
+  }
 
-.text-title {
-
-margin-top: 60px;
-margin-left: 24px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 900;
-font-size: 36px;
-line-height: 34px;
-
- }
-
-.normal-caption { 
-
-  margin-top: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
-
-}
-
-
-.zeiten { 
-  flex-grow: 1;
+ .time1 { 
   margin-left: 24px;
   margin-top: 10px;
-}
+ }
 
-
-.zeiten2 { 
-  flex-grow: 1;
+ .time2 { 
   margin-top: 10px;
   margin-left: 17px;
-}
+ }
 
-.cafe-foto { 
+ .cafe-foto { 
   margin-top: 40px;
   margin-right:24px;
   display: flex;
@@ -375,8 +60,6 @@ line-height: 34px;
   align-self: flex-end;
 }
 
-
-/* Section 2 Startseite mobil Version */
 
 
 .text-title2 {
@@ -413,8 +96,6 @@ line-height: 34px;
 
 }
 
-
-
 .h2sorten { 
   color: white;
   display: flex;
@@ -427,11 +108,12 @@ line-height: 34px;
 }
 
 
+
 .section3 { 
   background-color: black;
   color: white;
-  
-}
+  }
+
 
 .Sorten {
   color: white;
@@ -446,6 +128,7 @@ line-height: 34px;
 
 }
 
+
 .backgroundsorte { 
   background-color: white;
 }
@@ -457,7 +140,7 @@ line-height: 34px;
   margin-bottom: 43px;
 }
 
-.CostaRica1 { 
+.C1 { 
   flex-grow:1 ;
   max-width: 155px;
   margin-left: 24px;
@@ -474,6 +157,7 @@ line-height: 34px;
 
 }
 
+
 .price-product { 
   font-family: Roboto;
 font-style: normal;
@@ -483,7 +167,7 @@ line-height: 18px;
 color: #737373;
 }
 
-.CostaRica2 { 
+.C2 { 
   flex-grow:1 ;
   max-width: 155px;
   margin-right: 24px;
@@ -496,88 +180,135 @@ color: #737373;
   justify-content: space-between;
 }
 
-.CostaRica3 { 
-  flex-grow:1 ;
+.C3 { 
   max-width: 155px;
   margin-left: 24px;
-
 }
-
-.CostaRica4 { 
-  flex-grow:1 ;
+.C4 { 
   max-width: 155px;
   margin-right: 24px;
 }
-
 
 .row3 {
   justify-content: center;
   display: flex;
   margin-top: 44px;
- 
 }
-.secondbutton {
-
-  background-color: black;
-  color: white;
-
-  border: 3px solid #FFFFFF;
-  box-sizing: border-box;
-  border-radius: 5px;
-  width: 182px;
-  height: 48px;
-  justify-content: center;
-  margin-bottom: 60px;
-
-
-}
-
-/* Section 4 Startseite mobil Version */
 
 .section4 { 
 
-display: flex;
-color: white;
-background-image: url(../images/FEND-Coffee-bags-2.png);
-flex-direction: column;
-height: 332px;
+  display: flex;
+  color: white;
+  background-image: url(../images/FEND-Coffee-bags-2.png);
+  flex-direction: column;
+  height: 332px;
+  }
 
-}
+  .Herkunft {
+    max-width: 129px;
+    margin-top: 87px;
+    margin-left: 124px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 37px;
+   }
 
-.Herkunft {
- max-width: 129px;
- margin-top: 87px;
- margin-left: 124px;
- font-family: Roboto;
- font-style: normal;
- font-weight: 900;
- font-size: 32px;
- line-height: 37px;
+   .herkunft-text {
+    text-align: center;
+    max-width: 241px;
+    margin-left: 68px;
+    margin-top: 12px ;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .mehr {
+    text-align: center;
+    max-width: 241px;
+    margin-left: 68px;
+    margin-top: 12px ;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+  }
 
+  .adress-opening { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 24px ;
+    margin-right: 24px;
+    padding-bottom:34px;
+  }
 
-
-}
-
-.herkunft-text {
-  text-align: center;
-  max-width: 241px;
-  margin-left: 68px;
-  margin-top: 12px ;
+  .section5 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  
+  .inhalt { 
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 18px;
-}
-
-.mehr {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 34px;
   text-align: center;
-  max-width: 241px;
-  margin-left: 68px;
-  margin-top: 12px ;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 18px;
-}
+  margin-top: 60px ;
+  }
+  
+  .inhalt-img { 
+    width: 214px;
+    height: 284px;
+    margin-top: 35px;
+    margin-left: 65px;
+  }
+
+
+  .section6 { 
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 58px;
+  }
+  
+  .section7 { 
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px ;
+    margin-right: 20px;
+    margin-top: 25px;
+  }
+  
+  .buttonshop { 
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .section9 { 
+    margin-top: 72px;
+    margin-bottom: 35px;
+    
+  }
+
+  .ort {
+margin-bottom: 35px;
+margin-left: 24px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 34px;
+
+  }
+  
