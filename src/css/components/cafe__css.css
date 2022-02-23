@@ -1,0 +1,12 @@
+
+
+.fotogallery { 
+
+  display: flex; 
+  flex-flow: column wrap; 
+  align-content: space-between; 
+}
+
+.fotogallery__1 { 
+  width: 50%;
+}

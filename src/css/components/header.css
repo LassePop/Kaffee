@@ -1,8 +1,15 @@
 
 
-.main-header { 
+.main__header { 
     height: 75vh;
     background-image: url(../images/coffee.jpg);
+    background-size: cover;
+    background-position: top;
+  }
+
+.cafe__header { 
+    height: 75vh;
+    background-image: url(../images/FEND_SHOP.png);
     background-size: cover;
     background-position: top;
   }

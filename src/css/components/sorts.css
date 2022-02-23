@@ -1,0 +1,110 @@
+
+.rows {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+    
+   
+}
+
+
+.C { 
+  width: 40%;  
+
+  @media (min-width: 768px) {
+    width:20%;
+   }
+    
+}
+
+.row2 { 
+    display: flex;
+}
+
+
+
+.h2sorten { 
+    color: white;
+    display: flex;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px ;
+    line-height: 34px;
+    margin-top: 60px;
+  }
+  
+  
+  
+  .section3 { 
+    background-color: black;
+    color: white;
+   
+    
+    }
+  
+  
+  .Sorten {
+    color: white;
+    display: flex;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 34px;
+    margin-left: 21px;
+    margin-bottom: 40px;
+  
+  }
+  
+  
+  .backgroundsorte { 
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+
+
+
+  .sorte__image {
+    @media (min-width: 300px) {
+        width:155px;
+       }
+
+    @media (min-width: 768px) {
+        width:299px;
+       }
+    
+  }
+  
+  
+  
+  .titel-produkt { 
+    margin-top: 11px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+  
+  }
+  
+  
+  .price-product { 
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #737373;
+  }
+  
+ 
+  
+  .row3 {
+    justify-content: center;
+    display: flex;
+    margin-top: 44px;
+  }
+  

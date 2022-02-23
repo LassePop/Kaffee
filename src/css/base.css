@@ -226,135 +226,48 @@ body {
 }
 
 
-
-.section3 { 
-  background-color: black;
-  color: white;
-  }
-
-
-.Sorten {
-  color: white;
-  display: flex;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 36px;
-  line-height: 34px;
-  margin-left: 21px;
-  margin-bottom: 40px;
-
-}
-
-
-.backgroundsorte { 
-  background-color: white;
-}
-
-.row1 { 
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 43px;
-}
-
-.C1 { 
-  flex-grow:1 ;
-  max-width: 155px;
-  margin-left: 24px;
-  
-}
-
-.titel-produkt { 
-  margin-top: 11px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
-
-}
-
-
-.price-product { 
-  font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 18px;
-color: #737373;
-}
-
-.C2 { 
-  flex-grow:1 ;
-  max-width: 155px;
-  margin-right: 24px;
-  
-}
-
-.row2 { 
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: space-between;
-}
-
-.C3 { 
-  max-width: 155px;
-  margin-left: 24px;
-}
-.C4 { 
-  max-width: 155px;
-  margin-right: 24px;
-}
-
-.row3 {
-  justify-content: center;
-  display: flex;
-  margin-top: 44px;
-}
-
 .section4 { 
-
+  flex-direction: column;
   display: flex;
   color: white;
   background-image: url(../images/FEND-Coffee-bags-2.png);
-  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: wrap;
+  justify-content: center;
   height: 332px;
   }
 
   .Herkunft {
-    max-width: 129px;
-    margin-top: 87px;
-    margin-left: 124px;
+    text-align: center;
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
     line-height: 37px;
+    margin-bottom: 10px;
    }
 
    .herkunft-text {
     text-align: center;
-    max-width: 241px;
-    margin-left: 68px;
-    margin-top: 12px ;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 18px;
+     max-width: 306px;
+     margin: auto;
+     
   }
   
   .mehr {
     text-align: center;
-    max-width: 241px;
-    margin-left: 68px;
-    margin-top: 12px ;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 18px;
+    margin-top: 10px;
   }
 
   .adress-opening { 
@@ -366,38 +279,100 @@ color: #737373;
     padding-bottom:34px;
   }
 
+  .section5__title { 
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 34px;
+    letter-spacing: 0em;
+
+
+
+  }
+
   .section5 { 
+  
+  display: flex;
+  flex-direction: column; 
+  @media (min-width: 768px) {
+    flex-direction: row; 
+    
+
+  }
+  }
+
+  .section5__image_big { 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+
+
+  @media (min-width: 768px) {
+    width: 50%;
+    margin-left: 8rem;
+
     
   }
-  
-  .inhalt { 
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 36px;
-  line-height: 34px;
-  text-align: center;
-  margin-top: 60px ;
-  }
-  
-  .inhalt-img { 
-    width: 214px;
-    height: 284px;
-    margin-top: 35px;
-    margin-left: 65px;
   }
 
-
-  .section6 { 
+  .section5__icons { 
     display: flex;
-    justify-content: space-between;
-    margin-left: 45px;
-    margin-right: 45px;
-    margin-top: 58px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+
+  @media (min-width: 768px) {
+    
+    flex-wrap: wrap;
+    flex-direction: column; 
+
+
   }
+  }
+
+.section5__icons__item {
+  text-align: center;
+  margin-top: 20px;
+
+  @media (min-width: 768px) {
+
+  display: flex;
+  align-items: flex-end;
+  margin-top: 0px;
+  
+} 
+}
+
+.section5__icons__item__p { 
+  margin-top: 30px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+
+
+  @media (min-width: 768px) {
+    margin-top: 0px;
+    margin-left: 30px;
+    
+  } 
+}
+
+
+.sorte__icon { 
+  width:49px;
+}  
+
+ 
+  
+  
+
+
+
   
   .section7 { 
     display: flex;
