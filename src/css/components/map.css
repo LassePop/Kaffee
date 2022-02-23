@@ -1,6 +1,22 @@
 
 .map {
-width: 376px; 
-height:231px;
+
+height: 250px;
 border: 0;
+width: 100%;
+
+@media (min-width: 768px) {
+
+height: 350px;
+  }
+
+  @media (min-width: 1140px) {
+
+    height: 450px;
+      }
+
+
 }
+
+
+
